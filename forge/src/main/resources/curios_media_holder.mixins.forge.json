@@ -1,0 +1,13 @@
+{
+    "required": true,
+    "package": "io.yukkuric.curios_media_holder.forge.mixin",
+    "compatibilityLevel": "JAVA_17",
+    "minVersion": "0.8",
+    "client": [],
+    "mixins": [
+        "MixinCuriosHook"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}

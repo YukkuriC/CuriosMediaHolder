@@ -1,0 +1,13 @@
+{
+    "required": true,
+    "package": "io.yukkuric.curios_media_holder.fabric.mixin",
+    "compatibilityLevel": "JAVA_17",
+    "minVersion": "0.8",
+    "client": [],
+    "mixins": [
+        "MixinTrinketHook"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}
