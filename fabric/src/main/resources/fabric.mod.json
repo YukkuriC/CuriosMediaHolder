@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "id": "curios_media_holder",
+  "id": "trinket_media_holder",
   "version": "${version}",
-  "name": "CuriosMediaHolder",
-  "description": "An addon of HexCasting, making media holder items able to go inside curios (trinket) slots.",
+  "name": "TrinketMediaHolder",
+  "description": "An addon of HexCasting, making media holder items able to go inside Trinket slots.",
   "authors": [
     "YukkuriC"
   ],
@@ -17,14 +17,13 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "io.yukkuric.curios_media_holder.fabric.CuriosMediaHolderFabric"
+      "io.yukkuric.trinket_media_holder.TrinketMediaHolder"
     ],
     "client": [
-      "io.yukkuric.curios_media_holder.fabric.client.CuriosMediaHolderClient"
     ]
   },
   "mixins": [
-    "curios_media_holder.mixins.fabric.json"
+    "trinket_media_holder.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.16.9",
