@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "hexcasting:battery",
+    {
+      "required": false,
+      "id": "hex_ars_link:linker_great"
+    }
+  ]
+}
