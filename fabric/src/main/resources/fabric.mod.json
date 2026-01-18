@@ -24,7 +24,7 @@
     ]
   },
   "mixins": [
-
+    "curios_media_holder.mixins.fabric.json"
   ],
   "depends": {
     "fabricloader": ">=0.16.9",
