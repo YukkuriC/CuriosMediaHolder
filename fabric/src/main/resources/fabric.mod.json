@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "curios_media_holder",
+  "version": "${version}",
+  "name": "CuriosMediaHolder",
+  "description": "An addon of HexCasting, making media holder items able to go inside curios (trinket) slots.",
+  "authors": [
+    "YukkuriC"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/TODO",
+    "sources": "https://github.com/YukkuriC/TODO",
+    "issues": "https://github.com/YukkuriC/TODO/issues"
+  },
+  "license": "MIT",
+  "icon": "logo.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.yukkuric.curios_media_holder.fabric.CuriosMediaHolderFabric"
+    ],
+    "client": [
+      "io.yukkuric.curios_media_holder.fabric.client.CuriosMediaHolderClient"
+    ]
+  },
+  "mixins": [
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "hexcasting": ">=0"
+  },
+  "suggests": {}
+}
