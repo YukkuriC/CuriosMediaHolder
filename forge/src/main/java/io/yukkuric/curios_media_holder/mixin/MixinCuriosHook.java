@@ -17,8 +17,7 @@ import java.util.List;
 public class MixinCuriosHook {
     @Inject(method = "scanPlayerForMediaStuff", at = @At(value = "INVOKE", target = "Lkotlin/collections/CollectionsKt;sortWith(Ljava/util/List;Ljava/util/Comparator;)V"), remap = false)
     private static void injectAllCurios(ServerPlayer player, CallbackInfoReturnable<List<ADMediaHolder>> cir, @Local List<ADMediaHolder> sources) {
-        CuriosApi.getCuriosInventory(player).ifPresent(inv -> {
-            var allCurios = inv.getEquippedCurios();
+        CuriosApi.getCuriosHelper().getEquippedCurios(player).ifPresent(allCurios -> {
             var slots = allCurios.getSlots();
             for (var i = 0; i < slots; i++) {
                 var stack = allCurios.getStackInSlot(i);
