@@ -3,12 +3,14 @@
     "MR": {
         "dependencies": [
             "nTW3yKrm"
-        ],
+        ], 
         "optional": [
+            "vvuO3ImH",
+            "5aaWibi9"
         ],
-        "project_id": "TODO"
+        "project_id": "A7vBsE7N"
     },
     "CF": {
-        "project_id": "TODO"
+        "ignored": true
     }
 }

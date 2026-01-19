@@ -1,6 +1,6 @@
 modLoader = "javafml"
 loaderVersion = "[43,)"
-issueTrackerURL = "https://github.com/YukkuriC/TODO/issues"
+issueTrackerURL = "https://github.com/YukkuriC/CuriosMediaHolder/issues"
 license = "MIT"
 
 [[mods]]
@@ -12,8 +12,8 @@ description = '''
 An addon of HexCasting, making media holder items able to go inside Curios slots.
 '''
 logoFile = "logo.png"
-updateJSONURL = "https://api.modrinth.com/updates/TODO/forge_updates.json"
-displayURL = "https://modrinth.com/mod/TODO"
+updateJSONURL = "https://api.modrinth.com/updates/A7vBsE7N/forge_updates.json"
+displayURL = "https://modrinth.com/mod/curios-media-holder"
 
 [[dependencies.curios_media_holder]]
 modId = "forge"

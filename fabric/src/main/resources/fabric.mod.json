@@ -8,9 +8,9 @@
     "YukkuriC"
   ],
   "contact": {
-    "homepage": "https://www.curseforge.com/minecraft/mc-mods/TODO",
-    "sources": "https://github.com/YukkuriC/TODO",
-    "issues": "https://github.com/YukkuriC/TODO/issues"
+    "homepage": "https://modrinth.com/mod/curios-media-holder",
+    "sources": "https://github.com/YukkuriC/CuriosMediaHolder",
+    "issues": "https://github.com/YukkuriC/CuriosMediaHolder/issues"
   },
   "license": "MIT",
   "icon": "logo.png",
